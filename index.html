@@ -56,19 +56,18 @@
             </div>
           </div>
           <!-- right nav -->
-          <div class="navbar-end block lg:hidden">
-            <div class="dropdown">
-              <label tabindex="0" class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </label>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-2 z-[1] shadow bg-base-100 rounded-box w-24">
-                <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Shop</a></li>
-                <li><a>All Fruits</a></li>
-              </ul>
+          <div class="navbar-right block lg:hidden">
+            <div class="relative group">
+              <button class=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <!-- Dropdown content -->
+              <div class="absolute right-0 mt-2 w-28 bg-white border border-gray-300 rounded-md shadow-lg origin-top-right transform scale-0 group-hover:scale-100 transition-transform duration-300">
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Home</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">About Us</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Shop</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">All Fruits</a>
+              </div>
             </div>
           </div>
           <!-- right nav -->
