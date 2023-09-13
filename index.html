@@ -34,46 +34,48 @@
     </style>
 </head>
 <body class="font-lato">
-    <header class="max-w-7xl mx-auto">
+    <header class="max-w-6xl mx-auto">
         <!-- Navbar -->
-        <div class="navbar flex flex-row-reverse lg:flex-row lg:bg-btn-color rounded-3xl my-7">
-            <div class="navbar-start">
-              <div class="dropdown hidden lg:flex">
-                <div class="navbar-center">
-                    <ul class="menu menu-horizontal px-1 text-[#FFF]">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
-                    </ul>
-                  </div>
-              </div>
-              <!-- Responsive Nav -->
-              <div class="dropdown lg:hidden">
-                <label tabindex="0" class="btn btn-ghost btn-circle">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
-                  <li><a>Home</a></li>
-                  <li><a>About Us</a></li>
-                  <li><a>Shop</a></li>
-                  <li><a>All Fruits</a></li>
-                </ul>
-              </div>
-              <!-- Responsive Nav end -->
-            </div>
-            <div class="">
-              <a class="btn btn-ghost normal-case text-3xl lg:text-[#FFF] font-bold mr-40 lg:mr-0"> <img class="w-9" src="./images/logo.png" alt=""> Fruit Burst</a>
-            </div>
-            <div class="navbar-end mr-4">
-                <div class="form-control relative hidden lg:block">
-                    <input type="text" placeholder="Search here" class="py-2 pl-4 rounded-2xl w-24 pr-9 md:w-auto" />
-                    <i class="fa-solid fa-magnifying-glass absolute right-4 top-3"></i>
-                  </div>
+        <div class="navbar bg-btn-color">
+          <div class="navbar-start hidden lg:block">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
+                <li><a>Homepage</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>About</a></li>
+              </ul>
             </div>
           </div>
+          <div class="navbar-center pl-3 lg:pl-0">
+            <img class="" src="./images/logo.png" alt="">
+            <a class="text-3xl">Fruit Burst</a>
+          </div>
+          <div class="navbar-end mr-4">
+            <div class="relative hidden lg:block">
+                <input type="text" placeholder="Search here" class="py-2 pl-4 rounded-2xl w-24 pr-9 md:w-auto" />
+                <i class="fa-solid fa-magnifying-glass absolute right-4 top-3"></i>
+            </div>
+          </div>
+          <!-- right nav -->
+          <div class="navbar-start block lg:hidden">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24 items-end">
+                <li><a>Homepage</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>About</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- right nav -->
+        </div>
     </header>
-    <main class="max-w-7xl mx-auto">
+    <main class="max-w-6xl mx-auto">
 
     </main>
     <footer>
