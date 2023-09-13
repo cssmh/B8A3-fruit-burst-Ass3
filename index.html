@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
     <title>Fruit Burst</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/aafdc876db.js" crossorigin="anonymous"></script>
+    <!-- Daisy and Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-color': '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <h1>ki kos</h1>
+<body class="font-lato">
+    <header class="max-w-7xl mx-auto">
+        <!-- Navbar -->
+        <div class="navbar bg-btn-color rounded-3xl my-7">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#FFF]">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <a class="btn btn-ghost normal-case text-3xl text-[#FFF] font-bold"> <img class="w-9" src="./images/logo.png" alt=""> Fruit Burst</a>
+            </div>
+            <div class="navbar-end mr-4">
+                <div class="form-control relative">
+                    <input type="text" placeholder="Search here" class="py-2 pl-4 rounded-2xl w-24 md:w-auto" />
+                    <i class="fa-solid fa-magnifying-glass absolute right-4 top-3"></i>
+                  </div>
+            </div>
+          </div>
+    </header>
+    <main class="max-w-7xl mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
